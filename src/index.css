@@ -1,0 +1,100 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  
+}
+.App{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h3{
+  margin: 1rem;
+  font-size: 24px;
+  font-weight: bold;
+  color:rgb(194, 51, 75);
+}
+body{
+  background-color: #ccc;
+}
+.quiz{
+  background-color: #fff;
+  margin-top: 2rem;
+  border-radius: 15px;
+  padding: 20px;
+  min-width: 600px;
+  
+}
+
+.answer{
+  margin: 25px 15px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+input{
+  margin-right: 10px;
+  font-size: 34px;
+}
+button{
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(194, 51, 75);
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 24px;
+  margin-top: 15px;
+}
+.score-board{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  width: 100%;
+}
+.score-board button{
+  padding: 10px 60px;
+  width: auto;
+}
+.score-board h2{
+  margin-bottom: 2rem;
+}
+.score-board h1{
+  margin-bottom: 2rem;
+}
+.home{
+  width: auto;
+  height: 60vh;
+  padding-left: 5rem;
+  padding-top: 10rem;
+  gap: 1.5rem;
+}
+.home h1{
+  margin-bottom: 2rem;
+}
+.home h2{
+  margin-bottom: 2rem;
+}
+.home input{
+  margin-bottom: 1.5rem;
+  outline: none;
+  border: 1px solid gray;
+  font-size: 24px;
+  padding: 10px;
+  width: 400px;
+  border-radius: 10px;
+}
+.home button{
+  padding: 10px 60px;
+  width: auto;
+}
+.home .show-err{
+  border: 1px solid red;
+}
